@@ -4,8 +4,8 @@ import com.jojoldu.book.springboot.domain.posts.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import com.jojoldu.book.springboot.domain.user.Role;
 
-import javax.management.relation.Role;
 import javax.persistence.*;
 
 @Getter
@@ -47,6 +47,7 @@ public class User extends BaseTimeEntity {
     }
 
     public String getRoleKey(){
+
         return this.role.getKey();
     }
 }
