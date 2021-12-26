@@ -1,5 +1,6 @@
 package com.jojoldu.book.springboot.web.dto;
 
+import com.jojoldu.book.springboot.web.dto.HelloResponseDto;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
